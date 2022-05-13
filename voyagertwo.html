@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset = "utf-8"/>
+  <title>Voyager 2</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/voyagerone.css" />
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/voyagerone.js"></script>
+  <script src="js/progress.js"></script>
+  <script src="js/textAppear.js"></script>
+</head>
+
+<body>
+  <div class="stars"></div>
+  <div class="twinkling"></div>
+
+  <div class="nav">
+      <ul>
+        <li class="home"><a href="index.html">Home</a></li>
+        <li class="earthScroll"><button>Earth</button></li>
+        <li class="jupiterScroll"><button>Jupiter</button></li>
+        <li class="saturnScroll"><button>Saturn</button></li>
+        <li class="uranusScroll"><button>Uranus</button></li>
+        <li class="neptuneScroll"><button>Neptune</button></li>
+        <li class="nasa"><a href="https://voyager.jpl.nasa.gov">More</a></li>
+      </ul>
+  </div>
+
+  <main>
+      <div class="innerWrap">
+        <p class="EarthText">Earth</p>
+        <div class="EarthWrap">
+        <div class="Earth"></div>
+        <div id="EarthView" class="textVis">
+          <h3>August 20, 1977</h3>
+          Launching a few weeks prior to Voyager 1, Voyager 2 is launched NASA
+          from the Kennedy Space Center at Merritt Island, Florida. Although it
+          is launched first, it is planned to take an alternate route and is
+          quickly passed by Voyager 1 as it visits the outer planets in more
+          depth.
+        </div>
+        <div class="Earth2"></div>
+        </div>
+      </div>
+
+      <div id="Jupiter" class="innerWrap">
+        <p class="JupiterText">Jupiter</p>
+        <div id="JupiterView" class="textVis2">
+          <h3>July 9, 1979</h3>
+          Voyager 2 takes more time to focus on each of the Galilean moons of
+          Jupiter (Io, Europa, Ganymede, and Callisto). It discovers cracks in
+          the surface of Europa, suggesting at liquid water and a deeper ocean
+          on the moon. It also finds that the volcanos of Io are still erupting
+          since Voyager 1's pass months prior.
+        </div>
+        <div class="Jupiter">
+          <div class="JBar-1"></div>
+          <div class="JBar-2"></div>
+          <div class="JBar-3"></div>
+          <div class="JBar-4"></div>
+          <div class="JBar-5"></div>
+          <div class="JBar-6"></div>
+          <div class="JBar-7"></div>
+          <div class="JBar-8"></div>
+          <div class="JBar-9"></div>
+          <div class="JupiterSpot"></div>
+        </div>
+
+        <div class="Io"><p class="Moon">Io<p></div>
+        <div class="Europa"><p class="Moon">Europa<p></div>
+        <div class="Ganymede"><p class="Moon">Ganymede<p></div>
+        <div class="Callisto"><p class="Moon">Callisto<p></div>
+
+      </div>
+
+      <div id="Saturn" class="innerWrap">
+        <p class="SaturnText">Saturn</p>
+        <div id="SaturnView" class="textVis3">
+          <h3>August 26, 1981</h3>
+          Once again, Voyager 2 spends much of its time observing the Saturn's
+          moons. It finds signs of geyser activity on Enceladus, and makes close
+          encounters with the ice moons Iapetus and Tethys, as well as some of
+          the moons Voyager 1 encountered. It also finds hexagonal weather
+          pattern around Saturn's north pole.
+        </div>
+        <div class="Saturn">
+          <div class="SBar-1"></div>
+          <div class="SBar-2"></div>
+          <div class="SBar-3"></div>
+          <div class="SBar-4"></div>
+          <div class="SBar-5"></div>
+        </div>
+        <div class="SaturnRing"></div>
+        <div class="SaturnRing2"></div>
+        <div class="Titan"><p class="Moon">Titan<p></div>
+        <div class="Enceladus"><p class="Moon">Enceladus<p></div>
+        <div class="Tethys"><p class="Moon">Tethys<p></div>
+        <div class="Iapetus"><p class="Moon">Iapetus<p></div>
+      </div>
+
+      <div id="Uranus" class="innerWrap">
+        <p class="UranusText">Uranus</p>
+        <div id="UranusView" class="textVis4">
+          <h3>January 24, 1986</h3>
+          Voyager 2 becomes the first object to observe Uranus and its moons
+          (plus 11 new ones) up close. Whilst there it discovers the planet's
+          magnetic filed is on its side with the poles near its equator. It also
+          discovers a set of very dark rings around the planet as well as its
+          record-breaking low temperatures.
+        </div>
+        <div class="Uranus">
+          <div class="UBar-1"></div>
+          <div class="UBar-2"></div>
+          <div class="UBar-3"></div>
+        </div>
+        <div class="UranusRing"></div>
+        <div class="Titania"><p class="Moon">Titania<p></div>
+        <div class="Oberon"><p class="Moon">Oberon<p></div>
+        <div class="Umbriel"><p class="Moon">Umbriel<p></div>
+        <div class="Ariel"><p class="Moon">Ariel<p></div>
+        <div class="Miranda"><p class="Moon">Miranda<p></div>
+      </div>
+
+      <div id="Neptune" class="innerWrap">
+        <p class ="NeptuneText">Neptune</p>
+        <div id="NeptuneView" class="textVis5">
+          <h3>August 25, 1989</h3>
+          For the first time, Neptune is captured up close along with its moons
+          (including 6 new ones). A large storm similar to Jupiter's spot called
+          "The Great Dark Spot" is discovered, as well as some of the highest
+          wind speeds in the Solar System. Triton is also photographed, and
+          geysers are found erupting near the moon's south pole. Beyond Neptune,
+          Voyager 2 begins its journey into the outer edge of the Solar System.
+        </div>
+        <div class="Neptune">
+          <div class="NBar-1"></div>
+          <div class="NBar-2"></div>
+          <div class="NBar-3"></div>
+          <div class="NBar-4"></div>
+          <div class="NeptuneSpot"></div>
+        </div>
+        <div class="Triton"><p class="Moon">Triton<p></div>
+      </div>
+
+      <div class="innerWrap">
+        <div id="EndView" class="textVis6">
+          <h3>November 5, 2018</h3>
+          Voyager 2 has crossed into interstellar space, the second man-made
+          object to do so. This means it is no longer under the protection of
+          the heliosphere, the zone under the Sun's magnetic field. The
+          Voyager missions have provided decades worth of knowledge about the
+          outer reaches of our Solar System and were a benchmark for future
+          satellites and voyages taken up by NASA.
+        </div>
+        <center>
+          <a class="link" href="index.html">Home</a>
+          <br><br>
+          <a class="link" href="https://voyager.jpl.nasa.gov">Learn More</a>
+        </center>
+        <div class="OuterRing"></div>
+        <div class="OuterRing2"></div>
+        <div class="OuterRing3"></div>
+        <div class="OuterRing4"></div>
+      </div>
+  </main>
+
+</body>
+
+</html>
